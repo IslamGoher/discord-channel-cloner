@@ -1,0 +1,25 @@
+{
+  "name": "discord-channel-cloner",
+  "version": "1.0.0",
+  "description": "discord bot that can clone text channels and create HTML view for it.",
+  "main": "src/app.ts",
+  "repository": "git@github.com:IslamGoher/discord-channel-cloner.git",
+  "author": "Islam Goher <islam.m.goher@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "nodemon --watch \"src/**\" --ext \"ts,json,js\" --exec \"ts-node src/app.ts\"",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "express": "^4.18.2",
+    "ts-node": "^10.9.1",
+    "tsc": "^2.0.4",
+    "typescript": "^4.9.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.15",
+    "@types/node": "^18.11.18"
+  }
+}
